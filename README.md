@@ -1,3 +1,6 @@
+# xpense-track
+Angular with Firebase application for tracking your monthly budgets
+
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
 ## How to use this template
