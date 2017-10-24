@@ -5,9 +5,17 @@
     </ion-title>
   </ion-navbar>
 </ion-header>
-  
-<ion-content padding>
-  <h1 *ngIf="displayName">Hello {{displayName}}</h1>
-    <button ion-button outline (click)="signInWithFacebook()">Login</button>  
-    <button ion-button outline (click)="signOut()">Logout</button>
+
+<ion-content>
+  <div class="content-container">
+    <div class="login-wrapper-center">
+      <div class="login-box" text-center>
+        <h1>Welcome to xPenseTrack!</h1>
+        <h4>Login with one of the services below.</h4>
+        <!-- <h1 *ngIf="displayName">Hello {{displayName}}</h1>
+        <button *ngIf="!displayName" ion-button outline (click)="signInWithFacebook()">Login</button>
+        <button *ngIf="displayName" ion-button outline (click)="signOut()">Logout</button> -->
+      </div>
+    </div>
+  </div>
 </ion-content>
